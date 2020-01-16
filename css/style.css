@@ -1,0 +1,358 @@
+.main-slider {
+  width: 100%;
+}
+
+  .main-slider-item {
+    position: relative;
+    display: flex;
+    padding-bottom: 4em;
+  }
+
+    .main-slider-item-contentbox {
+      width: 30%;
+    }
+
+      .main-slider-item-heading {
+        font-size: 2em;
+        text-transform: uppercase;
+      }
+
+      .main-slider-hr {
+        width: 30%;
+        border-top: 1px solid #F2CB9C;
+      }
+
+    .main-slider-item-img {
+      position: absolute;
+      margin: 0;
+      right: -10%;
+      top: -20%;
+    }
+
+    .main-slider-btn {
+      padding: 1em 2em;
+      border: none;
+      border-radius: 25px;
+      color: inherit;
+      background-image: linear-gradient(to bottom right, #F6C37E, #D48E04, #BD6B2A);
+    }
+
+.main-slogan-box {
+  width: 40%;
+  margin: 0 auto;
+  padding: 4em 0;
+  background-image: url(../img/slogan-box.png);
+  background-repeat: no-repeat;
+  background-position: bottom right;
+}
+
+  .main-slogan-text-first,
+  .main-slogan-text-second {
+    text-align: center;
+  }
+
+  .main-values {
+    padding: 4em 0;
+    background-color: #EFF6FB;
+  }
+
+  .main-values .fixed-container {
+    position: relative;
+    padding-bottom: 8em;
+    background-image: url(../img/main-values-img.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 50vw;
+  }
+
+    .main-values-heading {
+      text-align: center;
+      color: #BD6B2A;
+    }
+
+    .main-values-cloud1,
+    .main-values-cloud2,
+    .main-values-cloud3 {
+      padding: 2.5em 2em;
+      background-image: url(../img/main-values-cloud.png);
+      background-repeat: no-repeat;
+      background-size: contain;
+    }
+
+      .main-values-cloud3 {
+        position: relative;
+        top: 5em;
+      }
+
+      .main-values-cloud2 {
+        position: absolute;
+        right: 20%;
+      }
+
+      .main-values-cloud-heading {
+        font-size: .8em;
+        font-weight: bold;
+        color: #4C4C4C;
+      }
+
+      .main-values-cloud-text {
+        font-size: .8em;
+      }
+
+      .main-values-cloud-content {
+        font-size: 2.2em;
+        text-transform: uppercase;
+        color: #5E7F9C;
+        font-weight: bold;
+      }
+
+.main-solutions .fixed-container {
+  padding-bottom: 6em;
+  background-image: url(../img/main-solutions-bg-bottom.png);
+  background-repeat: no-repeat;
+  background-size: 4em;
+  background-position: 26% bottom;
+}
+
+  .main-soulutions-heading {
+    padding-right: 30%;
+    font-size: 2em;
+    color: #194168;
+    background-image: url(../img/main-solutions-heading-bg.png);
+    background-repeat: no-repeat;
+    background-size: 4em;
+    background-position: 80% bottom;
+  }
+
+  .main-solutions-lists {
+    display: flex;
+    margin-bottom: 2em;
+    justify-content: space-between;
+    background-image: url(../img/main-solutions-lists-bg.png);
+    background-repeat: no-repeat;
+    background-size: 8em;
+    background-position: 60% bottom;
+  }
+
+    .main-solutions-list-neighbor,
+    .main-solutions-list-inflat {
+      width: 40%;
+      list-style: none;
+      margin: 0;
+      padding: 0;
+    }
+
+      .main-solutions-list-heading {
+        color: #4C4C4C;
+        text-transform: uppercase;
+        font-weight: bold;
+      }
+
+      .main-solutions-list-hr {
+        width: 60%;
+        border-top: 1px solid #F2CB9C;
+      }
+
+      .main-solutions-list-item {
+        font-size: .8em;
+        padding-left: 3em;
+        margin-bottom: .8em;
+        background-image: url(../img/main-solutions-list-item.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+      }
+
+  .main-solutions-text {
+    width: 80%;
+    padding-left: 4em;
+    background-image: url(../img/main-solutions-text.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: top left;
+    font-size: .8em;
+  }
+
+.main-promoroom {
+  padding: 4em 0;
+}
+
+  .main-promoroom .fixed-container {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .main-promoroom-heading {
+    text-align: center;
+    color: #194168;
+    font-size: 2em;
+  }
+
+  .main-promoroom-heading-text {
+    color: #BD6B2A;
+    text-align: center;
+    font-size: 1.8em;
+  }
+
+  .main-promoroom-content {
+    width: 40%;
+  }
+
+    .main-promoroom-form-input {
+      padding: 1em 1em;
+      border-radius: 10px;
+      border: 1px solid #E0E0E0;
+      font-size: .8em;
+    }
+
+      .main-promoroom-form-input-date {
+        width: 30%;
+        margin-left: 2em;
+      }
+
+      .main-promoroom-form-input-phone {
+        width: 50%;
+      }
+
+    .main-promoroom-form-workingtime {
+      margin-bottom: 2em;
+      text-align: right;
+      font-size: .7em;
+    }
+
+    .main-promoroom-form-btn {
+      padding: 1em 2em;
+      border: none;
+      border-radius: 20px;
+      color: white;
+      background-image: linear-gradient(to bottom right, #F6C37E, #D48E04, #BD6B2A);
+    }
+
+.main-advice {
+
+}
+
+  .main-advice-heading-box {
+    margin-bottom: 2em;
+  }
+
+    .main-advice-heading {
+      color: #194168;
+      font-size: 2em;
+      margin: 0;
+    }
+
+    .main-advice-heading-bottom {
+      color: #BD6B2A;
+      font-size: 1.5em;
+    }
+
+  .main-advice-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    margin: 0;
+    margin-bottom: 2em;
+    padding: 0 2em;
+  }
+
+    .main-advice-list-item {
+      display: inline-block;
+    }
+
+      .main-advice-list-item-active {
+        padding: 1em 2em;
+        border: 1px solid #EBB367;
+        border-radius: 10px;
+      }
+
+    .main-advice-item1 {
+      width: 60%;
+      padding: 1em 5em;
+      margin: 0 auto;
+      background-color: #fff;
+    }
+
+      .main-advice-item1-list {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+      }
+
+        .main-advice-item1-list-item {
+          margin: 2em 0;
+        }
+
+          .main-advice-item1-list-item-heading {
+            text-transform: uppercase;
+            font-weight: bold;
+          }
+
+            .advice-item1-floor:after {
+              content: "";
+              background-image: url(../img/advice-item1-floor.png);
+              background-repeat: no-repeat;
+              background-size: contain;
+              background-position: center;
+              padding-left: 2em;
+              margin-left: .5em;
+            }
+
+            .advice-item1-ceiling:after {
+              content: "";
+              background-image: url(../img/advice-item1-ceiling.png);
+              background-repeat: no-repeat;
+              background-size: contain;
+              background-position: center;
+              padding-left: 2em;
+              margin-left: .5em;
+            }
+
+            .advice-item1-wall:after {
+              content: "";
+              background-image: url(../img/advice-item1-wall.png);
+              background-repeat: no-repeat;
+              background-size: contain;
+              background-position: center;
+              padding-left: 2em;
+              margin-left: .5em;
+            }
+
+          .main-advice-item1-list-item-content {
+            display: flex;
+            align-items: center;
+            font-size: .9em;
+          }
+
+            .main-advice-item1-content-list {
+              list-style: none;
+              margin: 0;
+              padding: 0;
+            }
+
+              .main-advice-item1-content-list-item-heading {
+                font-weight: bold;
+              }
+
+            .main-advice-item1-list-item-content-img {
+              width: 50%;
+              height: 11em;
+              background-repeat: no-repeat;
+              background-size: contain;
+            }
+
+              .advice-item1-content-img-floor {
+                background-image: url(../img/advice-item1-content-img-floor.png);
+              }
+
+              .advice-item1-content-img-ceiling {
+                background-image: url(../img/advice-item1-content-img-ceiling.png);
+              }
+
+              .advice-item1-content-img-wall {
+                background-image: url(../img/advice-item1-content-img-wall.png);
+              }
+
+          .main-advice-item1-text {
+            font-size: .9em;
+          }

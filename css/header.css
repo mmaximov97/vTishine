@@ -1,0 +1,129 @@
+.header-nav .fixed-container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  font-size: .9em;
+}
+
+  .header-nav {
+    padding: 13px;
+  }
+
+    .header-hav-list {
+      display: flex;
+      justify-content: space-between;
+      width: 40%;
+      margin: 0;
+      margin-left: 30%;
+      padding: 0;
+      list-style: none;
+    }
+
+      .header-nav-list-item,
+      .header-address-item {
+        display: inline-block;
+      }
+
+        .header-address-item {
+          margin-left: 2%;
+          padding: 2px 0;
+          padding-left: 30px;
+          background-image: url(../img/header-address-item.png);
+          background-repeat: no-repeat;
+          background-size: contain;
+          color: #5E7F9C;
+        }
+
+      .header-nav-list-item-link {
+        color: inherit;
+        text-decoration: none;
+      }
+
+.header-infobar {
+  padding: 1% 0;
+  background-image: url(../img/header-infobar-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
+
+  .header-infobar .fixed-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .header-infobar-boxlogo {
+    padding-left: 142px;
+    padding-bottom: 72px;
+    background-image: url(../img/header-infobar-boxlogo.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+
+  .header-infobar-goals {
+    max-width: 25%;
+    margin: 0;
+    font-style: italic;
+    font-size: .8em;
+  }
+
+  .header-infobar-phone {
+    max-width: 25%;
+    padding-top: .8em;
+  }
+
+    .header-infobar-phone-number {
+      display: block;
+      margin-bottom: .6em;
+      color: inherit;
+      font-size: 1.6em;
+      font-weight: bold;
+      text-decoration: none;
+    }
+
+    .header-infobar-phone-btn {
+      padding: .8em 1.2em;
+      background-color: transparent;
+      border: 2px solid #F6C27B;
+      color: inherit;
+      font-size: .8em;
+      border-radius: 20px;
+    }
+
+  .header-infobar-city {
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+  }
+
+    .header-infobar-city-list {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+    }
+
+      .header-infobar-city-item {
+        margin-bottom: 1em;
+        font-size: 1.1em;
+        font-weight: bold;
+        text-align: right;
+      }
+
+        .infobar-city-active:after {
+          content: "\25be";
+          font-size: 1em;
+          color: inherit;
+          width: 14px;
+          display: inline-block;
+        }
+
+      .header-infobar-city-workingtime {
+        padding-left: 3em;
+        margin: 0;
+        font-size: .8em;
+        font-style: italic;
+        background-image: url(../img/header-infobar-city-workingtime.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+      }
