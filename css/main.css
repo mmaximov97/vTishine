@@ -265,12 +265,22 @@ textarea {
   }
 }
 
+body {
+  font-family: Ubuntu;
+}
+
 .fixed-container {
-  padding: 0 20%;
+  width: 900px;
   margin: 0 auto;
 }
 
 .underlined-item {
   text-decoration: underline !important;
+}
+
+@media screen and (min-width: 1440px) {
+  .fixed-container {
+    width: 1200px !important;
+  }
 }
 

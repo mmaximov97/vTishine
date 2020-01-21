@@ -1,4 +1,4 @@
-<!doctype html>
+<!DOCTYPE html>
 <html class="no-js" lang="">
 
 <head>
@@ -12,17 +12,20 @@
   <!-- Place favicon.ico in the root directory -->
 
   <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="fonts/stylesheet.css">
   <link rel="stylesheet" href="css/main.css">
   <link rel="stylesheet" href="css/header.css">
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/owl.carousel.min.css">
+  <link rel="stylesheet" href="css/owl.theme.default.css">
+  <link rel="stylesheet" href="css/footer.css">
 
-  <meta name="theme-color" content="#fafafa">
 </head>
 
 <body>
-  <!--[if IE]>
-    <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
-  <![endif]-->
+<!--  &lt;!&ndash;[if IE]>-->
+<!--    <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>-->
+<!--  <![endif]&ndash;&gt;-->
 
   <!-- Add your site or application content here -->
   <header class="header">
@@ -94,7 +97,7 @@
       </div>
 
       <div class="fixed-container">
-        <div class="main-slider owl-theme">
+        <div class="main-slider owl-theme owl-carousel" id="main-slider">
           <div class="main-slider-item">
             <div class="main-slider-item-contentbox">
               <h3 class="main-slider-item-heading">
@@ -112,33 +115,76 @@
               </button>
             </div>
 
-            <figure class="main-slider-item-img">
-              <img src="img/main-slider/main-slider-item1.png" alt="slider-img">
-            </figure>
+            <div class="main-slider-item-img">
+
+            </div>
           </div>
 
-<!--          <div class="main-slider-item">-->
-<!--            <div class="main-slider-item-contentbox">-->
-<!--              <h3 class="main-slider-item-heading">-->
-<!--                От 45 000р за комнату*-->
-<!--              </h3>-->
+          <div class="main-slider-item">
+            <div class="main-slider-item-contentbox">
+              <h3 class="main-slider-item-heading">
+                Рассрочка на 6 месяцев
+              </h3>
 
-<!--              <hr class="main-slider-hr">-->
+              <hr class="main-slider-hr">
 
-<!--              <p class="main-slider-item-text">-->
-<!--                Доступная звукоизоляция квартир. *Средняя цена услуги под ключ, гарантия-->
-<!--              </p>-->
+              <p class="main-slider-item-text">
+                Решение за 40 минут. Нужен только паспорт.
+              </p>
 
-<!--              <button class="main-slider-btn">-->
-<!--                Рассчитать для меня-->
-<!--              </button>-->
-<!--            </div>-->
+              <button class="main-slider-btn">
+                Узнать подробнее
+              </button>
+            </div>
 
+            <div class="main-slider-item-img slider-item2">
 
-<!--            <figure class="main-slider-item-img">-->
-<!--              <img src="img/main-slider/main-slider-item1.png" alt="slider-img">-->
-<!--            </figure>-->
-<!--          </div>-->
+            </div>
+          </div>
+
+          <div class="main-slider-item">
+            <div class="main-slider-item-contentbox">
+              <h3 class="main-slider-item-heading">
+                эффективность доказана НИИ стройфизики СПБ
+              </h3>
+
+              <hr class="main-slider-hr">
+
+              <p class="main-slider-item-text">
+                Звукоизоляция не иллюзия. Высылаем альбомы тех.решений с научным обоснованием эффективности.
+              </p>
+
+              <button class="main-slider-btn">
+                Получить документы
+              </button>
+            </div>
+
+            <div class="main-slider-item-img slider-item3">
+
+            </div>
+          </div>
+
+          <div class="main-slider-item">
+            <div class="main-slider-item-contentbox">
+              <h3 class="main-slider-item-heading">
+                Тест до покупки
+              </h3>
+
+              <hr class="main-slider-hr">
+
+              <p class="main-slider-item-text">
+                Лаборатория тишины позволяет услышать разницу между решениями. Оцените звукоизоляцию до покупки.
+              </p>
+
+              <button class="main-slider-btn">
+                Послушать
+              </button>
+            </div>
+
+            <div class="main-slider-item-img slider-item4">
+
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -313,9 +359,11 @@
               Запишитесь на демонстрацию заранее, чтобы не ждать в очереди
             </h3>
 
-            <input type="phone" placeholder="Укажите телефон" class="main-promoroom-form-input main-promoroom-form-input-phone">
+            <div class="main-promoroom-form-fieldset">
+              <input type="phone" placeholder="Укажите телефон" class="main-promoroom-form-input main-promoroom-form-input-phone">
 
-            <input type="text" placeholder="Удобное время" class="main-promoroom-form-input main-promoroom-form-input-date">
+              <input type="text" placeholder="Удобное время" class="main-promoroom-form-input main-promoroom-form-input-date">
+            </div>
 
             <div class="main-promoroom-form-workingtime">
               пн-пт с 10 до 19, сб с 10 до 16
@@ -497,51 +545,350 @@
           В большинстве случаев достаточно выявить и точечно звукоизолировать проблемные поверхности, а при звукоизоляции на этапе ремонта-смежные стены c cоседями и потолки в спальных зонах . Если вы делаете ремонт, достаточно добавить 1-2 слоя материалов и несколько дополнительных операций-это в 2-3 раза выгоднее , чем в последствии делать звукоизоляцию заново. В квартирах с ремонтом применяем инструмент с минимальным пыли образованием и заберем мусор после монтажа, предварительно согласовав.
         </p>
       </div>
+    </section>
 
-<!--      <div class="main-advice-item2">-->
-<!--        <div class="fixed-container">-->
-<!--          -->
-<!--        </div>-->
-<!--      </div>-->
-<!--      -->
-<!--      <div class="main-advice-item3">-->
-<!--        <div class="fixed-container">-->
-<!--          -->
-<!--        </div>-->
-<!--      </div>-->
-<!--      -->
-<!--      <div class="main-advice-item4">-->
-<!--        <div class="fixed-container">-->
-<!--          -->
-<!--        </div>-->
-<!--      </div>-->
+    <section class="main-calc">
+      <div class="fixed-container">
+        <div class="main-calc-heading-box">
+          <h2 class="main-calc-heading">
+            Рассчитайте стоимость звукоизоляции под ключ
+          </h2>
+        </div>
+
+        <form action="" class="main-calc-form">
+          <fieldset class="main-calc-form-fieldset">
+            <label for="house" class="main-calc-select-label">
+              Вид дома
+            </label>
+
+            <select name="house" id="house" class="main-calc-select">
+              <option value="monolit">
+                Монолит
+              </option>
+            </select>
+          </fieldset>
+
+          <fieldset class="main-calc-form-fieldset">
+            <label for="remont" class="main-calc-select-label">
+              Состояние ремонта
+            </label>
+
+            <select name="remont" id="remont" class="main-calc-select">
+              <option value="done">
+                Сделан
+              </option>
+            </select>
+          </fieldset>
+
+          <fieldset class="main-calc-form-fieldset">
+            <label for="what" class="main-calc-select-label">
+              Что беспокоит
+            </label>
+
+            <select name="what" id="what" class="main-calc-select">
+              <option value="topot">
+                Топот сверху
+              </option>
+            </select>
+          </fieldset>
+
+          <fieldset class="main-calc-form-fieldset">
+            <label for="priority" class="main-calc-select-label">
+              Какой приоритет
+            </label>
+
+            <select name="priority " id="priority" class="main-calc-select">
+              <option value="minwidth">
+                Минимальная толщина
+              </option>
+            </select>
+          </fieldset>
+
+          <fieldset class="main-calc-form-fieldset">
+            <label for="ploshad" class="main-calc-select-label">
+              Общая площадь квартиры
+            </label>
+
+            <input type="text" class="main-calc-select" placeholder="100 кв.м.">
+          </fieldset>
+
+          <div class="main-calc-price-block">
+            <p class="main-calc-form-text">
+              Предварительная стоимость:
+            </p>
+
+            <p class="main-calc-form-price">
+              120 000р
+            </p>
+          </div>
+
+          <div class="calc-checkbox">
+            <fieldset class="main-calc-form-fieldset">
+              <input type="checkbox" id="self">
+
+              <label for="self">
+                Хочу сэкономить, монтаж буду делать сам
+              </label>
+            </fieldset>
+
+            <fieldset class="main-calc-form-fieldset">
+              <input type="checkbox" id="self">
+
+              <label for="self">
+                Хочу сэкономить, монтаж буду делать сам
+              </label>
+            </fieldset>
+
+            <fieldset class="main-calc-form-fieldset">
+              <input type="checkbox" id="self">
+
+              <label for="self">
+                Хочу сэкономить, монтаж буду делать сам
+              </label>
+            </fieldset>
+          </div>
+
+          <input type="submit" class="main-calc-form-btn">
+          <p class="main-calc-form-copyright-text">
+            * Мы не рассылаем спам и номер никому не передаем
+          </p>
+        </form>
+      </div>
+    </section>
+
+    <section class="main-team">
+      <div class="fixed-container">
+        <h2 class="main-team-heading">
+          С Вами работает команда профессионалов
+        </h2>
+
+        <div class="main-team-slider owl-carousel owl-theme" id="main-team-slider">
+          <div class="main-team-person">
+            <figure class="person-img">
+              <img src="img/main-team-person1.png" alt="">
+            </figure>
+
+            <p class="person-name">
+              Павел Таксубаев
+            </p>
+
+            <p class="person-job">
+              Генеральный директор
+            </p>
+
+            <p class="person-star">
+              Обладает огромным практическим опытом
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="main-objects">
+      <div class="fixed-container">
+        <h2 class="main-objects-heading">
+          Выполненные объекты и отзывы
+        </h2>
+
+        <div class="main-objects-map">
+          <ul class="main-objects-map-legend">
+            <li class="main-objects-map-legend-item legend1">
+              Наши объекты
+            </li>
+
+            <li class="main-objects-map-legend-item legend2">
+              С отзывом
+            </li>
+
+            <li class="main-objects-map-legend-item legend3">
+              Проведена экспертиза
+            </li>
+
+            <select name="select" id="select" class="map-legend-select">
+              <option value="expertise">
+                Проведена экспертиза
+              </option>
+            </select>
+          </ul>
+
+          <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A94d6f1ca67b91ab4e73dd4d5919f207c22fc04c2aa4fc94732ef58fa20712c44&amp;source=constructor" width="100%" height="400" frameborder="0"></iframe>
+        </div>
+      </div>
+    </section>
+
+    <section class="main-reviews">
+      <div class="fixed-container">
+        <img src="img/flamp.png" alt="" width="50%">
+
+        <div class="main-reviews-block">
+          <h3 class="smi-heading">
+            СМИ о нас
+          </h3>
+
+          <hr class="main-reviews-block-hr">
+
+          <div class="smi-text">
+            <p class="smi-text-heading">
+              Финалист конкурса “Сделано в Челябинске 2018” от “ЭХО Москвы”
+            </p>
+
+            <p class="smi-text-paragraph">
+              Победитель конкурса от газеты Комсомольская Правда “Лучший строитель Южного Урала 2018” в номинациях: «Лучшая компания, оказывающая услуги в сфере ремонта и благоустройства зданий» и «Прорыв года»
+            </p>
+          </div>
+
+          <div class="main-reviews-contacts">
+            <div class="main-reviews-contacts-content">
+              <p class="main-reviews-contacts-phone">
+                +7 (351) 750 39 51
+              </p>
+
+              <p class="main-reviews-contacts-text">
+                г. Челябинск
+              </p>
+
+              <p class="main-reviews-contacts-text">
+                ул. Университетская
+                набережная, 88
+              </p>
+
+              <p class="main-reviews-contacts-text">
+                пн-пт с 10 до 19:00, сб с 10 до 16:00
+              </p>
+
+              <p class="main-reviews-contacts-mail">
+                mail@vtiho.ru
+              </p>
+            </div>
+
+            <img src="img/main-reviews-contacts-content.png" alt="" width="40%">
+          </div>
+        </div>
+      </div>
     </section>
   </main>
 
+  <footer class="footer">
+    <div class="fixed-container">
+      <div class="footer-first-section">
+        <a href="#" class="footer-logo"></a>
 
-  <script src="js/vendor/modernizr-3.8.0.min.js"></script>
-  <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-  <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.4.1.min.js"><\/script>')</script>
+        <div class="footer-nav-lists">
+          <ul class="footer-city-list">
+            <li class="footer-city-list">
+              Москва
+            </li>
+
+            <li class="footer-city-list">
+              Екатеринбург
+            </li>
+
+            <li class="footer-city-list footer-active-city">
+              Челябинск
+            </li>
+          </ul>
+
+          <nav class="footer-nav">
+            <ul class="footer-nav-list">
+              <li class="footer-nav-list-item">
+                <a href="#" class="footer-nav-list-item-link">
+                  Статьи
+                </a>
+              </li>
+
+              <li class="footer-nav-list-item">
+                <a href="" class="footer-nav-list-item-link">
+                  Магазин
+                </a>
+              </li>
+
+              <li class="footer-nav-list-item">
+                <a href="" class="footer-nav-list-item-link">
+                  Способы оплаты
+                </a>
+              </li>
+
+              <li class="footer-nav-list-item">
+                <a href="" class="footer-nav-list-item-link">
+                  Реквизиты
+                </a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+
+        <div class="footer-contacts">
+          <p class="footer-contacts-phone">
+            +7 (351) 750 39 51
+          </p>
+
+          <ul class="footer-contacts-social-list">
+            <li class="footer-contacts-social-item">
+              <a href="" class="footer-contacts-social-link vk">
+
+              </a>
+            </li>
+
+            <li class="footer-contacts-social-item">
+              <a href="" class="footer-contacts-social-link fb">
+
+              </a>
+            </li>
+
+            <li class="footer-contacts-social-item">
+              <a href="" class="footer-contacts-social-link inst">
+
+              </a>
+            </li>
+
+            <li class="footer-contacts-social-item">
+              <a href="" class="footer-contacts-social-link youtube">
+
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-last-section">
+      <div class="fixed-container">
+        <p class="copyright">
+          © Все права защищены.
+        </p>
+      </div>
+    </div>
+  </footer>
+
+
+  <script src="js/jquery-3.4.1.min.js" ></script>
   <script src="js/plugins.js"></script>
   <script src="js/main.js"></script>
   <script src="js/owl.carousel.min.js"></script>
 
   <script>
       $(document).ready(function(){
-        $('.main-slider').owlCarousel({
-          items:1,
-          dots:true,
-          nav:false,
+        $('#main-slider').owlCarousel({
+          items: 1,
+          loop: true,
+          dots: true,
+        });
+      });
+
+      $(document).ready(function(){
+        $('#main-team-slider').owlCarousel({
+          items: 4,
+          loop: true,
         });
       });
   </script>
 
   <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
-  <script>
-    window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
-    ga('create', 'UA-XXXXX-Y', 'auto'); ga('set','transport','beacon'); ga('send', 'pageview')
-  </script>
-  <script src="https://www.google-analytics.com/analytics.js" async></script>
+<!--  <script>-->
+<!--    window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;-->
+<!--    ga('create', 'UA-XXXXX-Y', 'auto'); ga('set','transport','beacon'); ga('send', 'pageview')-->
+<!--  </script>-->
+<!--  <script src="https://www.google-analytics.com/analytics.js" async></script>-->
 </body>
 
 </html>

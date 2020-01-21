@@ -1,0 +1,87 @@
+.footer {
+  background-color: #4C4C4C;
+}
+
+.footer-first-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1em 0;
+  color: #FFFFFF;
+}
+
+  .footer-logo {
+    padding: 3em 6em;
+    background-image: url(../img/footer-logo.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+
+  .footer-city-list,
+  .footer-nav-list,
+  .footer-contacts-social-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .footer-nav-lists {
+    width: 40%;
+    text-align: right;
+  }
+
+    .footer-city-list {
+      font-weight: bold;
+      margin-bottom: 1em;
+    }
+
+    .footer-nav-list-item-link {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    .footer-active-city {
+      color: #F7BA60;
+    }
+
+    .footer-contacts-phone {
+      font-weight: bold;
+      font-size: 1.5em;
+      margin-bottom: 2em;
+    }
+
+    .footer-contacts-social-link {
+      background-repeat: no-repeat;
+      background-size: contain;
+      padding: 2em 1em;
+    }
+
+      .fb {
+        background-image: url(../img/fb.png);
+      }
+
+      .vk {
+        background-image: url(../img/vk.png);
+      }
+
+      .inst {
+        background-image: url(../img/inst.png);
+      }
+
+      .youtube {
+        background-image: url(../img/youtube.png);
+      }
+
+.footer-last-section {
+  color: white;
+  background-color: #F3AD4E;
+  text-align: right;
+}
+
+  .copyright {
+    padding: 1em 0;
+    margin: 0;
+    font-size: .8em;
+  }
